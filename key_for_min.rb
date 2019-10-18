@@ -18,6 +18,6 @@ require 'pry'
 def key_for_min_value(hash)
   hash.reduce do |item1, item2|
     min_item = item1.last < item2.last ? item1 : item2
-    min_item[0]
+    binding.pry
   end
 end
