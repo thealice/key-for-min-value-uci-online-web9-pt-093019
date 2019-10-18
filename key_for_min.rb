@@ -21,5 +21,5 @@ def key_for_min_value(hash)
 
   end
 min_item.first
-binding.pry
+
 end
