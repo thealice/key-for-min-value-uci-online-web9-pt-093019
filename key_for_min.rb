@@ -3,10 +3,11 @@
 require 'pry'
 
 def key_for_min_value(hash)
-  min_value = 10000
+  # min_value = 10000
+  min_value = nil
   min_key = nil
   hash.each do |key, value|
-      if value < min_value
+      if min_value == nil || value < min_value
         min_value = value
         min_key = key
       end
