@@ -17,6 +17,6 @@ end
 
 # def key_for_min_value(hash)
 #   hash.reduce do |item1, item2|
-#     item1.last > item2.last ? item2.first : item1.first
+#     item1.last < item2.last ? item1 : item2
 #   end
 # end
